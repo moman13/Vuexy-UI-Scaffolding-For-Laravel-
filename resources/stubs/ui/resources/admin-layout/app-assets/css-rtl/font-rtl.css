@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "din-next-lt-w23-light";
+    font-style: normal;
+    font-weight: 500;
+    src:url("fonts/din-next-lt-w23-light.eot?") format("eot");
+    src:url("fonts/din-next-lt-w23-light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/din-next-lt-w23-light.ttf") format("truetype"),
+    url("fonts/din-next-lt-w23-light.svg#jannaltbold") format("svg");
+}
+
+
+
+body{
+    font-family: "din-next-lt-w23-light" !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: "din-next-lt-w23-light" !important;
+    font-weight: bold !important;
+}
+.navigation{
+    font-family: "din-next-lt-w23-light" !important;
+}
+.feather{
+    font-family: "din-next-lt-w23-light" !important;
+}
+.header-navbar{
+    font-family: "din-next-lt-w23-light" !important;
+}

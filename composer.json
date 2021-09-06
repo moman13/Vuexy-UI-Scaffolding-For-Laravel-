@@ -1,0 +1,40 @@
+{
+    "name": "moman12/form_builder",
+    "homepage": "https://github.com/moman12/form_builder",
+    "description": "Laravel Ui",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moman12",
+            "email": "mm.2022.100@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "haruncpi/laravel-user-activity": "^1.0",
+        "laravel/framework": "^8.12",
+        "arcanedev/log-viewer": "^8.0",
+        "laravel/jetstream": "^2.1",
+        "laravel/sanctum": "^2.6",
+        "laravel/tinker": "^2.5",
+        "livewire/livewire": "^2.0",
+        "spatie/laravel-translatable": "^4.6"
+
+    },
+    "require-dev": {
+        "spatie/laravel-web-tinker": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moman12\\FormBuilder\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Moman12\\FormBuilder\\Providers\\FormBuilderProvider"
+            ]
+        }
+    }
+}
