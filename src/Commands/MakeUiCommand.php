@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Artisan;
 
 class MakeUiCommand extends Command
 {
-    protected $signature = 'make:ui {--a|--auth} {--force}';
+    protected $signature = 'make:moman {--a|--auth} {--force}';
     private $filesystem;
 
     public function handle()
